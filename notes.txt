@@ -1,14 +1,11 @@
 TODOs
-# authentication - add user levels and permissions like 0 (super admin), 1 (admins), 2 (users) and 3 (blogger).
-# profile - users should be able to update profile pictures.
-# Logs - keeps logs on when users logged in and what they did when they logged in.
-# signup | contact - use proper phone number inputs with country codes.
+# profile 
+- users should be able to update profile pictures.
 
-admin - search functionality.
-users - edit functionality.
-navbar - solve error for pages without the burger menu.
-authentication - ensure only active users can login.
 
+
+# signup | contact 
+- use proper phone number inputs with country codes.
 
 
 

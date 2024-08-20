@@ -558,6 +558,11 @@ footer .copyright {
   color: green;
 }
 
+@media screen and (width >= 726px) {
+  .Home .Hero {
+    height: 90dvh;
+  }
+}
 .Contact .container {
   display: grid;
   grid-template-columns: 1fr;

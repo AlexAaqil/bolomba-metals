@@ -558,6 +558,34 @@ footer .copyright {
   color: green;
 }
 
+.Home section {
+  margin: 0 0 4em;
+}
+.Home .Hero {
+  height: 40dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home .Hero .container h1 {
+  line-height: 1.5;
+}
+.Home .About .container p,
+.Home .Services .container p {
+  line-height: 1.5;
+}
+.Home .About .container .btn {
+  margin: 1.5em 0;
+}
+.Home .About .container .btn a {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
 @media screen and (width >= 726px) {
   .Home .Hero {
     height: 90dvh;

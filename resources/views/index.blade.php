@@ -1,7 +1,13 @@
 <x-general-layout class="Home">
     <section class="Hero">
         <div class="container">
-            <h1>Leading the Future of Metals and Minerals Mining</h1>
+            <div class="visual">
+                <video src="#" loop muted autoplay></video>
+            </div>
+
+            <div class="text">
+                <h1>Leading the Future of Metals and Minerals Mining</h1>
+            </div>
         </div>
     </section>
 

@@ -39,6 +39,21 @@
             }
         }
     }
+
+    .Services {
+        .services_wrapper {
+            display: grid;
+            gap: 1.5em;
+
+            .service {
+                .image {
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 0 0.5em;
+                }
+            }
+        }
+    }
 }
 
 

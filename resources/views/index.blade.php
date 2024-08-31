@@ -1,29 +1,39 @@
 <x-general-layout class="Home">
     <section class="Hero">
-        <div class="container">
-            <div class="visual">
+        <div class="container_fluid">
+            {{-- <div class="visual">
                 <video src="#" loop muted autoplay></video>
+            </div> --}}
+            <div class="visual">
+                <img src="{{ asset('assets/images/bolomba-metals-hero.jpg') }}" alt="Bolomba Metals">
             </div>
 
             <div class="text">
-                <h1>Leading the Future of Metals and Minerals Mining</h1>
+                <h1>Leading the Future <br> of Metals and Minerals Mining</h1>
             </div>
         </div>
     </section>
 
     <section class="About">
         <div class="container">
-            <p>At Bolomba Metals, we are a diversified base metals mining company with a focus on extracting and
+            <div class="text">
+                <h2>About Bolomba Metals</h2>
+                <p>At Bolomba Metals, we are a diversified base metals mining company with a focus on extracting and
                 processing essential base metals including copper, zinc, gold, and nickel.</p>
-            <div class="btn">
-                <a href="{{ route('about') }}">Read More</a>
+                <div class="btn">
+                    <a href="{{ route('about') }}">Learn more about us</a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="{{ asset('assets/images/bolomba-metals-about.jpg') }}" alt="About Bolomba Metals">
             </div>
         </div>
     </section>
 
     <section class="Services">
         <div class="container">
-            <h2>Services</h2>
+            <h2>Our Services</h2>
 
             <div class="services_wrapper">
                 <div class="service">

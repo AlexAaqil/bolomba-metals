@@ -1,12 +1,13 @@
 footer {
-    background: $theme_1;
-    padding: 16px 0 0;
+    background: $theme_3;
+    padding: 64px 0 0;
 
     * {color: $light_text;}
 
     .container {
         section {
-            margin: 0 0 1.5em;
+            margin: 0 0 3em;
+            
             a {
                 text-decoration: none;
             }

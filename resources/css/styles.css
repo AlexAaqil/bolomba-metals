@@ -208,7 +208,8 @@ nav {
   background: rgb(255, 255, 255);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  box-shadow: 4px 2px 4px #ffffff;
+  box-shadow: 4px 2px 4px #464646;
+  z-index: 100;
 }
 nav a {
   text-decoration: none;
@@ -216,6 +217,7 @@ nav a {
 }
 nav .brand a h1 {
   font-size: 1.2em;
+  color: #007e7a;
 }
 nav .nav_links {
   display: flex;
@@ -454,14 +456,14 @@ a.btn {
   }
 }
 footer {
-  background: #222831;
-  padding: 16px 0 0;
+  background: #007e7a;
+  padding: 64px 0 0;
 }
 footer * {
   color: #eee;
 }
 footer .container section {
-  margin: 0 0 1.5em;
+  margin: 0 0 3em;
 }
 footer .container section a {
   text-decoration: none;
@@ -559,16 +561,69 @@ footer .copyright {
 }
 
 .Home section {
-  margin: 0 0 4em;
+  margin: 0 0 5em;
+}
+.Home section h2 {
+  color: #007e7a;
+  margin: 0 0 0.7em;
+  font-size: 2em;
 }
 .Home .Hero {
-  height: 40dvh;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.Home .Hero .container_fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Home .Hero .container_fluid .visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.Home .Hero .container_fluid .visual img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  filter: blur(3px);
+  transform: scale(1);
+}
+.Home .Hero .container_fluid .text {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 3;
+  background-color: rgba(27, 27, 27, 0.45);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.Home .Hero .container h1 {
-  line-height: 1.5;
+.Home .Hero .container_fluid .text h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 1.5em;
 }
 .Home .About .container p,
 .Home .Services .container p {
@@ -579,15 +634,25 @@ footer .copyright {
 }
 .Home .About .container .btn a {
   text-decoration: none;
-  background: #000;
+  background: #007e7a;
   color: #fff;
   border: none;
-  padding: 6px 12px;
+  padding: 14px 16px;
   border-radius: 4px;
+}
+.Home .About .container .image {
+  height: 300px;
+  width: 100%;
+}
+.Home .About .container .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
 }
 .Home .Services .services_wrapper {
   display: grid;
-  gap: 1.5em;
+  gap: 2em;
+  margin: 1em 0;
 }
 .Home .Services .services_wrapper .service .image {
   width: 40px;
@@ -598,6 +663,34 @@ footer .copyright {
 @media screen and (width >= 726px) {
   .Home .Hero {
     height: 90dvh;
+  }
+  .Home .About {
+    display: flex;
+    justify-content: center;
+  }
+  .Home .About .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+  }
+  .Home .Services h2 {
+    text-align: center;
+  }
+  .Home .Services .services_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+  }
+  .Home .Services .services_wrapper .service .image {
+    margin: 0.7em auto;
+    width: 60px;
+    height: 60px;
+  }
+  .Home .Services .services_wrapper .service .text {
+    text-align: center;
+  }
+  .Home .Services .services_wrapper .service .text h3 {
+    margin: 0 0 0.8em;
   }
 }
 .Contact .container {

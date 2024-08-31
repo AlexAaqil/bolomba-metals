@@ -1,11 +1,11 @@
 <footer>
     <div class="container">
         <section class="branding">
-            <div class="image">
+            {{-- <div class="image">
                 <x-app-logo />
-            </div>
+            </div> --}}
             <p class="app_name">{{ env('APP_NAME') }}</p>
-            <p>Some cool slogan.</p>
+            <p>leading the future of metals and mineral mining</p>
         </section>
 
         <section class="links">

@@ -1,18 +1,71 @@
 .Home {
     section {
-        margin: 0 0 4em;
+        margin: 0 0 5em;
+
+        h2 {
+            color: $theme_3;
+            margin: 0 0 0.7em;
+            font-size: 2em;
+        }
     }
 
     .Hero {
-        height: 40dvh;
-        @include flex_center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
 
-        .container {
-            h1 {
-                line-height: 1.5;
+        .container_fluid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            .visual {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                overflow: hidden;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    filter: blur(3px);
+                    transform: scale(1);
+                }
+            }
+
+            .text {
+                width: 100vw;
+                height: 100vh;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                z-index: 3;
+                background-color: rgba(27, 27, 27, 0.45);
+                @include flex_center;
+
+                h1 {
+                    font-size: 2em;
+                    font-weight: bolder;
+                    line-height: 1.5em;
+                }
             }
         }
-    }
+    }    
 
     .About,
     .Services {
@@ -30,11 +83,21 @@
 
                 a {
                     text-decoration: none;
-                    background: #000;
+                    background: $theme_3;
                     color: #fff;
                     border: none;
-                    padding: 6px 12px;
+                    padding: 14px 16px;
                     border-radius: 4px;
+                }
+            }
+
+            .image {
+                height: 300px;
+                width: 100%;
+
+                img {
+                    object-fit: cover;
+                    border-radius: 8px;
                 }
             }
         }
@@ -43,7 +106,8 @@
     .Services {
         .services_wrapper {
             display: grid;
-            gap: 1.5em;
+            gap: 2em;
+            margin: 1em 0;
 
             .service {
                 .image {
@@ -61,6 +125,45 @@
     .Home {
         .Hero {
             height: 90dvh;
+        }
+
+        .About {
+            display: flex;
+            justify-content: center;
+
+            .container {
+                display: grid;
+                align-items: center;
+                grid-template-columns: 1fr 1fr;
+                gap: 3em;
+            }
+        }
+
+        .Services {
+            h2 {
+                text-align: center;
+            }
+
+            .services_wrapper {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 3em;
+
+                .service {
+                    .image {
+                        margin: 0.7em auto;
+                        width: 60px;
+                        height: 60px;
+                    }
+
+                    .text {
+                        text-align: center;
+
+                        h3 {
+                            margin: 0 0 0.8em;
+                        }
+                    }
+                }
+            }
         }
     }
 }

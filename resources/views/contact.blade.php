@@ -2,7 +2,7 @@
     <div class="container">
         <div class="text">
             <h1>Get in Touch</h1>
-            
+
             <p>
                 <span>{{ config('globals.phone_number') }}</span>
                 <span>{{ config('globals.email') }}</span>

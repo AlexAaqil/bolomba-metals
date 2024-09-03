@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <div class="mission_vission">
+        <div class="content mission_vission">
             <div class="text">
                 <h2>What sets us apart?</h2>
                 <div class="statements">

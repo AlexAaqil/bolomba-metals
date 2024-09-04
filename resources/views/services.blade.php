@@ -23,7 +23,7 @@
     
             <div class="service card">
                 <div class="image">
-                    <img src="{{ asset('assets/images/mineral-separation.jpg') }}" alt="Mineral Separation Services">
+                    <img src="" alt="Mineral Separation Services">
                 </div>
                 <div class="text">
                     <h1>Mineral Separation Services</h1>
@@ -33,7 +33,7 @@
     
             <div class="service card">
                 <div class="image">
-                    <img src="{{ asset('assets/images/mining.jpg') }}" alt="Mining">
+                    <img src="" alt="Mining">
                 </div>
                 <div class="text">
                     <h1>Mining</h1>

@@ -1,5 +1,5 @@
 <x-general-layout class="About">
-    <div class="header">
+    <div class="jumbotron">
         <h1>About Us</h1>
     </div>
 

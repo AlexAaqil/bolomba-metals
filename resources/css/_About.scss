@@ -1,16 +1,4 @@
 .About {
-    .header {
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../public/assets/images/bolomba-metals-hero.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 15dvh;
-        @include flex_center;
-
-        h1 {
-            color: #fff;
-        }
-    }
-
     .container {
         .content {
             margin: 1.5em 0 5em;
@@ -83,10 +71,6 @@
 
 @media screen and (width >= 726px) {
     .About {
-        .header {
-            height: 25dvh;
-        }
-
         .container {
             .values {
                 h2 {

@@ -1,0 +1,59 @@
+.Services {
+    p {
+        line-height: 1.2;
+    }
+
+    section {
+        margin: 0 0 3em;
+    }
+
+    .Services_List {
+        .cards_wrapper {
+            @include grid(3);
+            gap: 1.5em;
+
+            .service {
+                background: linear-gradient(120deg, rgba(248, 248, 252, 0.5), rgba(218, 218, 252, 0.6));
+                border-radius: 8px;
+
+                &:hover {
+                    box-shadow: 2px 2px 8px #888888;
+                }
+
+                .image {
+                    height: 300px;
+                    img {
+                        border-radius: 8px 8px 0 0;
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .text {
+                    padding: 12px 12px;
+                    text-align: center;
+
+                    h1 {
+                        margin: 0.5em 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width >= 726px) {
+    .Services {
+        .Content {
+            margin: 3em 0;
+
+            .container {
+                width: 83%;
+                margin: auto;
+                // text-align: center;
+            }
+        }
+    }
+}

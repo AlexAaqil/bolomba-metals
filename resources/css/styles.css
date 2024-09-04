@@ -81,6 +81,24 @@ img {
   font-weight: bold;
 }
 
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/assets/images/bolomba-metals-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron h1 {
+  color: #fff;
+}
+
+@media screen and (width >= 726px) {
+  .jumbotron {
+    height: 25dvh;
+  }
+}
 aside {
   height: 100%;
   position: fixed;
@@ -718,18 +736,6 @@ footer .copyright {
     justify-content: center;
   }
 }
-.About .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/assets/images/bolomba-metals-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 15dvh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.About .header h1 {
-  color: #fff;
-}
 .About .container .content {
   margin: 1.5em 0 5em;
 }
@@ -779,9 +785,6 @@ footer .copyright {
 }
 
 @media screen and (width >= 726px) {
-  .About .header {
-    height: 25dvh;
-  }
   .About .container .values h2 {
     text-align: center;
   }
@@ -793,6 +796,59 @@ footer .copyright {
   }
   .About .container .mission_vission {
     grid-template-columns: 1fr 40%;
+  }
+}
+.Services p {
+  line-height: 1.2;
+}
+.Services section {
+  margin: 0 0 3em;
+}
+.Services .Services_List .cards_wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+  gap: 1.5em;
+}
+@media screen and (width >= 726px) {
+  .Services .Services_List .cards_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.Services .Services_List .cards_wrapper .service {
+  background: linear-gradient(120deg, rgba(248, 248, 252, 0.5), rgba(218, 218, 252, 0.6));
+  border-radius: 8px;
+}
+.Services .Services_List .cards_wrapper .service:hover {
+  box-shadow: 2px 2px 8px #888888;
+}
+.Services .Services_List .cards_wrapper .service .image {
+  height: 300px;
+}
+.Services .Services_List .cards_wrapper .service .image img {
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.Services .Services_List .cards_wrapper .service .text {
+  padding: 12px 12px;
+  text-align: center;
+}
+.Services .Services_List .cards_wrapper .service .text h1 {
+  margin: 0.5em 0;
+}
+
+@media screen and (width >= 726px) {
+  .Services .Content {
+    margin: 3em 0;
+  }
+  .Services .Content .container {
+    width: 83%;
+    margin: auto;
   }
 }
 .Contact .container {

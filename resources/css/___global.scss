@@ -58,3 +58,21 @@ img {
         }
     }
 }
+
+.jumbotron {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../public/assets/images/bolomba-metals-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15dvh;
+    @include flex_center;
+
+    h1 {
+        color: #fff;
+    }
+}
+
+@media screen and (width >= 726px) {
+    .jumbotron {
+        height: 25dvh;
+    }
+}

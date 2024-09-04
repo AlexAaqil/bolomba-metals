@@ -659,6 +659,26 @@ footer .copyright {
   height: 40px;
   margin: 0 0 0.5em;
 }
+.Home .Contact_Us .container_fluid {
+  display: grid;
+  gap: 1em 2em;
+  padding: 0 16px;
+}
+.Home .Contact_Us .container_fluid p {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.Home .Contact_Us .container_fluid .button {
+  margin: 1em 0;
+}
+.Home .Contact_Us .container_fluid .button a {
+  text-decoration: none;
+  background: #007e7a;
+  color: #fff;
+  border: none;
+  padding: 14px 16px;
+  border-radius: 4px;
+}
 
 @media screen and (width >= 726px) {
   .Home .Hero {
@@ -691,6 +711,11 @@ footer .copyright {
   }
   .Home .Services .services_wrapper .service .text h3 {
     margin: 0 0 0.8em;
+  }
+  .Home .Contact_Us .container_fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .About .header {

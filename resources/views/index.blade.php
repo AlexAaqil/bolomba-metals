@@ -77,7 +77,7 @@
     </section>
 
     <section class="Contact_Us">
-        <div class="containter_fluid">
+        <div class="container_fluid">
             <p>Do you want to get in touch with us?</p>
             <div class="button">
                 <a href="{{ route('contact') }}">Contact Us</a>

@@ -118,6 +118,31 @@
             }
         }
     }
+
+    .Contact_Us {
+        .container_fluid {
+            display: grid;
+            gap: 1em 2em;
+            padding: 0 16px;
+
+            p {
+                font-size: 1.4em;
+                font-weight: 600;
+            }
+
+            .button {
+                margin: 1em 0;
+                a {
+                    text-decoration: none;
+                    background: $theme_3;
+                    color: #fff;
+                    border: none;
+                    padding: 14px 16px;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -163,6 +188,12 @@
                         }
                     }
                 }
+            }
+        }
+
+        .Contact_Us {
+            .container_fluid {
+                @include flex_center;
             }
         }
     }

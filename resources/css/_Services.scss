@@ -35,7 +35,7 @@
                     padding: 12px 12px;
                     text-align: center;
 
-                    h1 {
+                    h2 {
                         margin: 0.5em 0;
                     }
                 }
@@ -53,6 +53,50 @@
                 width: 83%;
                 margin: auto;
                 // text-align: center;
+            }
+        }
+
+        .Services_List {
+            .cards_wrapper {
+                grid-template-columns: 1fr;
+                gap: 10em;
+
+                .service {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    align-items: center;
+                    gap: 2em;
+                    grid-template-areas: "image text";
+                    background: unset;
+
+                    .image {
+                        border-radius: 8px;
+                        grid-area: image;
+                        height: 400px;
+                        background: #e2e2e2;
+
+                        img {
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .text {
+                        grid-area: text;
+                        text-align: left;
+
+                        h2 {
+                            font-size: 2em;
+                        }
+
+                        p {
+                            line-height: 1.5;
+                        }
+                    }
+
+                    &:nth-of-type(even) {
+                        grid-template-areas: "text image";
+                    }
+                }
             }
         }
     }

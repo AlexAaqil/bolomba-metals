@@ -5,9 +5,9 @@
 
     <div class="container">
         <div class="content">
-            <p>We are a leading metals and rare minerals solutions service provider in the global economy. We pride ourselves being an all rounded rare minerals solutions service provider connecting the east and central africa region to the world at large.</p>
-            <p>We have an extensive track record across a wide range of commodities. Our teams have deep expertise in the mining, minerals and metals processing industries, as well as related non-process infrastructure such as energy solutions.</p>
-            <p>We deliver comporehensive advisory, engineering and project delivery services throughout the capital project lifecycle, from concept through to operational readiness and commissioning as well as ongoing operations, maintenance and engineering services. We do this with a focus on sustainability and assisting clients to achieve their ESG goals.</p>
+            <p>Bolomba Metals stands at the forefront of the global metals and rare minerals industry, serving as a leading solutions provider with a strong connection between the East and Central Africa region and the broader international market. Our operations are strategically located northeast of the provincial capital of Mbandaka, enhancing our accessibility and logistical efficiency.</p>
+            <p>With an extensive track record across a diverse range of commodities, Bolomba Metals is renowned for its deep expertise in mining, minerals processing, and metals extraction. Our capabilities extend to managing related non-process infrastructure, including advanced energy solutions.</p>
+            <p>We offer comprehensive advisory, engineering, and project delivery services throughout the entire capital project lifecycle. From initial concept through to operational readiness and commissioning, and continuing with ongoing operations, maintenance, and engineering support, our services are designed to meet the highest standards of sustainability. We are dedicated to helping our clients achieve their Environmental, Social, and Governance (ESG) goals while maintaining a focus on innovation and excellence.</p>
         </div>
 
         <div class="content values">
@@ -69,17 +69,17 @@
                 <div class="statements">
                     <div class="statement">
                         <p class="title">Our Mission</p>
-                        <p>To empower economies and enrich lives as well unlock the potential of East and Central Africa's resources, driving sustainable development for a brighter tomorrow.</p>
+                        <p>To drive sustainable development by harnessing the rich resources of East and Central Africa. We are dedicated to empowering economies, enhancing lives, and unlocking the full potential of the region's mineral wealth to build a brighter, more sustainable future for all.</p>
                     </div>
 
                     <div class="statement">
                         <p class="title">Our Vision</p>
-                        <p>To turn the future of mining into reality as the most sought-after company in our field.</p>
+                        <p>Transforming the future of mining by becoming the most sought-after leader in our industry. Our goal is to set new standards in innovation, efficiency, and sustainability, positioning ourselves at the forefront of the global mining sector.</p>
                     </div>
 
                     <div class="statement">
                         <p class="title">Purpose Statement</p>
-                        <p>To be creators of real value by fulfilling the aspirations of our people, clients, shareholders and communities.</p>
+                        <p>To create genuine value by meeting and exceeding the aspirations of our people, clients, shareholders, and communities. We strive to be a catalyst for positive change, delivering on our commitments with integrity and excellence to drive meaningful impact.</p>
                     </div>
                 </div>
             </div>

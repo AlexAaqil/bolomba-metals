@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .center {
   text-align: center !important;
 }
@@ -583,8 +584,15 @@ footer .copyright {
 }
 .Home section h2 {
   color: #007e7a;
-  margin: 0 0 0.7em;
+  margin: 0 0 0.8em;
   font-size: 2em;
+}
+.Home section h2::before {
+  content: "—";
+  margin: 0 0.3em 0 0;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 1.5em;
 }
 .Home .Hero {
   position: relative;
@@ -648,7 +656,7 @@ footer .copyright {
   line-height: 1.5;
 }
 .Home .About .container .btn {
-  margin: 1.5em 0;
+  margin: 2em 0;
 }
 .Home .About .container .btn a {
   text-decoration: none;
@@ -659,13 +667,17 @@ footer .copyright {
   border-radius: 4px;
 }
 .Home .About .container .image {
-  height: 300px;
+  height: 350px;
   width: 100%;
 }
 .Home .About .container .image img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
+}
+.Home .Services {
+  background: #fff2d9;
+  padding: 5em 0em;
 }
 .Home .Services .services_wrapper {
   display: grid;

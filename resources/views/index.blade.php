@@ -18,8 +18,8 @@
         <div class="container">
             <div class="text">
                 <h2>About Bolomba Metals</h2>
-                <p>At Bolomba Metals, we are a diversified base metals mining company with a focus on extracting and
-                processing essential base metals including copper, zinc, gold, and nickel.</p>
+                <p>Bolomba Metals is a premier diversified mining company dedicated to the extraction and processing of vital base metals. Our operations are focused on key resources including copper, zinc, gold, and nickel, which are essential for various industrial applications.</p>
+                <p>Located at the northeast of the provincial capital of Mbandaka, our strategic positioning enhances our accessibility to important logistical routes and supports our commitment to efficient and sustainable mining practices. At Bolomba Metals, we are committed to driving innovation, ensuring environmental stewardship, and contributing to the economic development of the region.</p>
                 <div class="btn">
                     <a href="{{ route('about') }}">Learn more about us</a>
                 </div>

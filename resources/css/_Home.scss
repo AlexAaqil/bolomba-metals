@@ -4,8 +4,16 @@
 
         h2 {
             color: $theme_3;
-            margin: 0 0 0.7em;
+            margin: 0 0 0.8em;
             font-size: 2em;
+
+            &::before {
+                content: "—";
+                margin: 0 0.3em 0 0;
+                font-size: 1.2em;
+                display: inline-block;
+                width: 1.5em;
+            }
         }
     }
 
@@ -37,7 +45,7 @@
                 height: 100%;
                 z-index: 1;
                 overflow: hidden;
-    
+
                 img {
                     width: 100%;
                     height: 100%;
@@ -65,7 +73,7 @@
                 }
             }
         }
-    }    
+    }
 
     .About,
     .Services {
@@ -79,7 +87,7 @@
     .About {
         .container {
             .btn {
-                margin: 1.5em 0;
+                margin: 2em 0;
 
                 a {
                     text-decoration: none;
@@ -92,7 +100,7 @@
             }
 
             .image {
-                height: 300px;
+                height: 350px;
                 width: 100%;
 
                 img {
@@ -104,6 +112,9 @@
     }
 
     .Services {
+        background: $theme_4;
+        padding: 5em 0em;
+
         .services_wrapper {
             display: grid;
             gap: 2em;

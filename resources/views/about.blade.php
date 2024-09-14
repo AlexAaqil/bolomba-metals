@@ -10,7 +10,7 @@
             <p>We offer comprehensive advisory, engineering, and project delivery services throughout the entire capital project lifecycle. From initial concept through to operational readiness and commissioning, and continuing with ongoing operations, maintenance, and engineering support, our services are designed to meet the highest standards of sustainability. We are dedicated to helping our clients achieve their Environmental, Social, and Governance (ESG) goals while maintaining a focus on innovation and excellence.</p>
         </div>
 
-        <div class="content values">
+        {{-- <div class="content values">
             <h2>Reasons for choosing us</h2>
             <div class="values_wrapper">
                 <div class="value">
@@ -61,7 +61,7 @@
                     <p>We don't just deliver on our promises, but deliver on time.</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="content mission_vission">
             <div class="text">

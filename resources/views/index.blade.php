@@ -38,38 +38,34 @@
             <div class="services_wrapper">
                 <div class="service">
                     <div class="image">
-                        <img src="{{ asset('assets/images/mining.png') }}" alt="Mining">
+                        <img src="{{ asset('assets/images/bolomba-metals-mining-solutions.jpg') }}" alt="Mining">
                     </div>
 
                     <div class="text">
-                        <h3>Mining Solutions</h3>
-                        <p>We specialize in the extraction of high-value minerals such as gold and diamonds, catering to
-                            a diverse range of global clients.</p>
+                        <h3>Comprehensive Mining Solutions</h3>
+                        <p>Our expertise lies in the meticulous extraction of valuable minerals, including gold and diamonds. We are committed to serving a wide array of international clients, providing tailored solutions that meet their unique needs and expectations.</p>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="image">
-                        <img src="{{ asset('assets/images/mineral-separation.png') }}" alt="Mineral Separation">
+                        <img src="{{ asset('assets/images/bolomba-metals-mineral-separation-2.jpg') }}" alt="Mineral Separation">
                     </div>
 
                     <div class="text">
-                        <h3>Mineral Separation</h3>
-                        <p>Our advanced mineral separation and recovery services ensure maximum transparency and
-                            accuracy, delivering unparalleled results.</p>
-
+                        <h3>State-of-the-Art Mineral Separation</h3>
+                        <p>Utilizing cutting-edge technology and techniques, our mineral separation and recovery services are designed to achieve the highest levels of transparency and precision. We are dedicated to delivering exceptional results that exceed industry standards.</p>
                     </div>
                 </div>
 
                 <div class="service">
                     <div class="image">
-                        <img src="{{ asset('assets/images/rare-mineral-sales.png') }}" alt="Rare Mineral Sales">
+                        <img src="{{ asset('assets/images/bolomba-metals-rare-minerals-sales.png') }}" alt="Rare Mineral Sales">
                     </div>
 
                     <div class="text">
-                        <h3>Rare Mineral Sales</h3>
-                        <p>We offer carefully inspected, validated, and refined rare minerals to meet the exacting
-                            standards of our extensive client base.</p>
+                        <h3>Exclusive Rare Mineral Sales</h3>
+                        <p>We provide a curated selection of rare minerals, each thoroughly inspected, validated, and refined to adhere to the most stringent quality standards. Our offerings are tailored to meet the discerning requirements of our diverse and extensive clientele.</p>
                     </div>
                 </div>
             </div>

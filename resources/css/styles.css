@@ -587,7 +587,7 @@ footer .copyright {
   margin: 0 0 0.8em;
   font-size: 2em;
 }
-.Home section h2::before {
+.Home section h2::before, .Home section h2::after {
   content: "—";
   margin: 0 0.3em 0 0;
   font-size: 1.2em;
@@ -728,24 +728,39 @@ footer .copyright {
     text-align: center;
   }
   .Home .Services .services_wrapper {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3em;
+    gap: 7em;
+  }
+  .Home .Services .services_wrapper .service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-template-areas: "image text";
+    gap: 2em;
   }
   .Home .Services .services_wrapper .service .image {
+    grid-area: image;
     margin: 0.7em auto;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 450px;
+  }
+  .Home .Services .services_wrapper .service .image img {
+    border-radius: 8px;
   }
   .Home .Services .services_wrapper .service .text {
-    text-align: center;
+    grid-area: text;
   }
   .Home .Services .services_wrapper .service .text h3 {
     margin: 0 0 0.8em;
+    font-size: 1.35em;
+  }
+  .Home .Services .services_wrapper .service:nth-of-type(even) {
+    grid-template-areas: "text image";
   }
   .Home .Contact_Us .container_fluid {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3em 0;
   }
 }
 .About .container .content {

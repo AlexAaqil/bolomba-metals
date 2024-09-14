@@ -1,19 +1,9 @@
 <x-general-layout class="Contact">
+    <div class="jumbotron">
+        <h1>We'd love to hear from you!</h1>
+    </div>
+
     <div class="container">
-        <div class="text">
-            <h1>Get in Touch</h1>
-
-            <p>
-                <span>{{ config('globals.phone_number') }}</span>
-                <span>{{ config('globals.email') }}</span>
-            </p>
-
-            <p class="hours">
-                <span>Mon - Fri</span>
-                <span>08:00 AM - 06:00 PM</span>
-            </p>
-        </div>
-
         <div class="custom_form">
             <form action="{{ route('user-messages.store') }}" method="post">
                 @csrf
@@ -45,5 +35,18 @@
                 <button type="submit">Send Message</button>
             </form>
         </div>
+        
+        <div class="text">
+            <p>
+                <span>{{ config('globals.phone_number') }}</span>
+                <span>{{ config('globals.email') }}</span>
+            </p>
+
+            <p class="hours">
+                <span>Mon - Fri</span>
+                <span>08:00 AM - 06:00 PM</span>
+            </p>
+        </div>
+
     </div>
 </x-general-layout>

@@ -912,6 +912,12 @@ footer .copyright {
     grid-template-areas: "text image";
   }
 }
+.Contact .jumbotron {
+  padding: 0 16px;
+}
+.Contact .jumbotron h1 {
+  font-size: 1.35em;
+}
 .Contact .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -945,6 +951,27 @@ footer .copyright {
   display: grid;
 }
 
+@media screen and (width >= 726px) {
+  .Contact .jumbotron h1 {
+    font-size: 2.5em;
+  }
+  .Contact .container {
+    margin: 5em 0;
+    gap: 2em;
+  }
+  .Contact .container .text {
+    background: #fff2d9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 32px;
+    border-radius: 8px;
+  }
+  .Contact .container .custom_form {
+    padding: 1.5em 0;
+  }
+}
 .Admin .Contact .strikethrough {
   text-decoration: line-through;
 }
